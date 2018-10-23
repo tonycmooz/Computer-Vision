@@ -12,18 +12,18 @@ while 1:
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
 
     for (x, y, w, h) in faces:
-        # Blue Face Rectangle
+        # Draw Blue Rectangle around Face
         cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
         roi_gray = gray[y:y + h, x:x + w]
         roi_color = img[y:y + h, x:x + w]
 
-        # Green Eye Rectangles
+        # Draw Green Rectangles around Eye
         eyes = eye_cascade.detectMultiScale(roi_gray)
         for (ex, ey, ew, eh) in eyes:
             cv2.rectangle(roi_color, (ex, ey), (ex + ew, ey + eh), (0, 255, 0), 2)
 
-    # Quit program
     cv2.imshow('img', img)
+    # Quit program
     key = cv2.waitKey(1)
     if key == ord('q'):
         break
