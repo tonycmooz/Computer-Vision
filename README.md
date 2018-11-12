@@ -1,4 +1,4 @@
-# Computer Vision Applications with OpenCV using Python
+# Computer Vision Applications with OpenCV using Python 3
 
 ## How to run smile detection from a webcam
 1. Download the Face and Smile Haarcascades to your machine
