@@ -2,7 +2,9 @@
 
 # How to run smile detection from a webcam
 1. Download the Face and Smile Haarcascades to your machine:
+
 face: https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
+
 smile: https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_smile.xml
   
 2. Copy the file paths of both face and smile cascades 
