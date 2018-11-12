@@ -11,7 +11,7 @@
    and update the string in lines 5 and 6 in ```detect_smile.py```
  
 3. Finally, run the command
-  python3 detect_smile.py
+  ```python3 detect_smile.py```
 ```
 ## Further References
 https://docs.opencv.org/3.4.3/d7/d8b/tutorial_py_face_detection.html
