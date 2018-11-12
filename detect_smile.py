@@ -1,5 +1,4 @@
 import cv2
-import pandas as pd
 from _datetime import datetime
 
 face_classifier = cv2.CascadeClassifier('/Users/ccd/PycharmProjects/ComputerVision3/haarcascades/haarcascade_frontalface_default.xml')
@@ -35,8 +34,5 @@ while 1:
     if key == ord('q'):
         break
 
-# ds = {'smile_ratio': smile_ratios, 'times': times}
-# df = pd.DataFrame(ds)
-# df.to_csv('smile_records.csv')
 cap.release()
 cv2.destroyAllWindows()
