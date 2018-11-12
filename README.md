@@ -14,9 +14,13 @@
 
   ```python3 detect_smile.py```
 
-## Further References
+## OpenCV Tutorials
 https://docs.opencv.org/3.4.3/d7/d8b/tutorial_py_face_detection.html
 https://docs.opencv.org/3.4.3/dc/d88/tutorial_traincascade.html
+
+## Python Installation Guides
+https://www.python.org/downloads/
+https://realpython.com/installing-python/
 
 ## Contributing
 Have an optimization, idea, suggestion, bug report? Pull requests greatly appreciated!
