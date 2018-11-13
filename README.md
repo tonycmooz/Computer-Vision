@@ -14,6 +14,11 @@
 
   ```python3 detect_smile.py```
 
+## Prerequisites
+* Webcam
+* Python 3
+* OpenCV
+
 ## OpenCV Tutorials
 https://docs.opencv.org/3.4.3/d7/d8b/tutorial_py_face_detection.html
 https://docs.opencv.org/3.4.3/dc/d88/tutorial_traincascade.html
